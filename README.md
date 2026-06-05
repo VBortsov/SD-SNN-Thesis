@@ -1,4 +1,8 @@
-﻿# Shallow Neural Networks for Signal Decomposition
+﻿# Models and Real Data SubRepos:
+ https://drive.google.com/drive/folders/10EAO6oSaHBlkyF3iavDuu7MT5w1xwcxF?usp=drive_link
+ paste saved_models contents into decomposers/ML_methods/NN_based/saved_models or train new models.
+ 
+ # Shallow Neural Networks for Signal Decomposition
 
 This repository contains the code, dashboard, training scripts, and evaluation utilities for the paper:
 
@@ -355,3 +359,14 @@ For a concise source-code map, see:
 ```text
 docs/FILE_GUIDE.md
 ```
+
+#AI disclosure
+This declaration is made in accordance with the policy on the use of artificial
+intelligence in education set out by M.Dumontier.
+During the preparation of this work, Grammarly was used to check and
+improve the grammar and spelling of the manuscript, and ChatGPT
+(OpenAI Codex) to assist with debugging and with documenting parts of the source
+code. These tools were not used to generate research results, design
+experiments, or produce scientific content. After using them, the thesis was
+carefully reviewed and edited the output and the author takes full responsibility for the
+content of this thesis.
