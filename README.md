@@ -1,4 +1,8 @@
-﻿# Shallow Neural Networks for Signal Decomposition
+ # Models and Real Data SubRepos:
+ https://drive.google.com/drive/folders/10EAO6oSaHBlkyF3iavDuu7MT5w1xwcxF?usp=drive_link
+ paste saved_models contents into decomposers/ML_methods/NN_based/saved_models or train new models.
+ 
+ # Shallow Neural Networks for Signal Decomposition
 
 This repository contains the code, dashboard, training scripts, and evaluation utilities for the paper:
 
