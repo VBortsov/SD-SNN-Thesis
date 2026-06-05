@@ -1,0 +1,12 @@
+{
+  "unet1d": true,
+  "rnnbased": true,
+  "autoencoderbased": true,
+  "conv1dnetwork": true,
+  "mlp_singlehead": true,
+  "tasnet": true,
+  "sepformer": true,
+  "three_parallel_shallow_branches": false,
+  "fuse_shallow": true,
+  "multiscale_dilated": true
+}

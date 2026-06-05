@@ -1,0 +1,14 @@
+column,available,non_null_rows
+training_time_s,True,78
+parameters,True,82
+inference_time_ms,True,82
+peak_memory_mb,False,0
+train_fraction,True,78
+train_samples,True,78
+macro_corr,True,82
+macro_snr,True,82
+test_loss,True,82
+seed,False,0
+gpu_name,True,83
+total_flops,False,0
+estimated_energy,False,0

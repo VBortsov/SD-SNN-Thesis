@@ -1,0 +1,2196 @@
+{
+  "resources": [
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\shared\\model_registry.json",
+      "page": "Shared",
+      "section": "Inputs",
+      "resource_type": "json",
+      "description": "Registry snapshot containing the model catalog and enabled state used by the app.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\shared\\discovered_reports.csv",
+      "page": "Shared",
+      "section": "Inputs",
+      "resource_type": "csv",
+      "description": "Raw discovered report table loaded from saved model evaluation reports.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\shared\\report_loader_warnings.json",
+      "page": "Shared",
+      "section": "Inputs",
+      "resource_type": "json",
+      "description": "Warnings raised while discovering and parsing saved report files.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\model_comparison\\all_models.csv",
+      "page": "Model Comparison",
+      "section": "All Models",
+      "resource_type": "csv",
+      "description": "All-model comparison table currently loaded by the app.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\model_comparison\\shallow_vs_deep_summary.csv",
+      "page": "Model Comparison",
+      "section": "Summary",
+      "resource_type": "csv",
+      "description": "Mean shallow-vs-deep comparison summary derived from the loaded report table.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\summary_statistics.json",
+      "page": "Research Comparison",
+      "section": "Summary",
+      "resource_type": "json",
+      "description": "Thesis research summary statistics derived from the research dataset.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\bundle_metadata.json",
+      "page": "Research Comparison",
+      "section": "Metadata",
+      "resource_type": "json",
+      "description": "Research bundle metadata describing source labels and preparation warnings.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_macro_corr.png",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "png",
+      "description": "Research chart 'Macro correlation per model' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_macro_corr.svg",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "svg",
+      "description": "Research chart 'Macro correlation per model' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_macro_corr.pdf",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "pdf",
+      "description": "Research chart 'Macro correlation per model' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_macro_snr.png",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "png",
+      "description": "Research chart 'Macro SNR per model' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_macro_snr.svg",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "svg",
+      "description": "Research chart 'Macro SNR per model' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_macro_snr.pdf",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "pdf",
+      "description": "Research chart 'Macro SNR per model' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_test_loss.png",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "png",
+      "description": "Research chart 'Test loss per model' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_test_loss.svg",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "svg",
+      "description": "Research chart 'Test loss per model' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_test_loss.pdf",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "pdf",
+      "description": "Research chart 'Test loss per model' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_parameters.png",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "png",
+      "description": "Research chart 'Parameter count per model' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_parameters.svg",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "svg",
+      "description": "Research chart 'Parameter count per model' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_parameters.pdf",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "pdf",
+      "description": "Research chart 'Parameter count per model' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_inference_time_ms.png",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "png",
+      "description": "Research chart 'Inference time per model' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_inference_time_ms.svg",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "svg",
+      "description": "Research chart 'Inference time per model' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_inference_time_ms.pdf",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "pdf",
+      "description": "Research chart 'Inference time per model' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_training_time_s.png",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "png",
+      "description": "Research chart 'Training time per model' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_training_time_s.svg",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "svg",
+      "description": "Research chart 'Training time per model' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\overall\\overall_training_time_s.pdf",
+      "page": "Research Comparison",
+      "section": "Overall",
+      "resource_type": "pdf",
+      "description": "Research chart 'Training time per model' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\snn_vs_dnn\\snn_dnn_averages.png",
+      "page": "Research Comparison",
+      "section": "SNN vs DNN",
+      "resource_type": "png",
+      "description": "Research chart 'Average SNN vs DNN performance' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\snn_vs_dnn\\snn_dnn_averages.svg",
+      "page": "Research Comparison",
+      "section": "SNN vs DNN",
+      "resource_type": "svg",
+      "description": "Research chart 'Average SNN vs DNN performance' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\snn_vs_dnn\\snn_dnn_averages.pdf",
+      "page": "Research Comparison",
+      "section": "SNN vs DNN",
+      "resource_type": "pdf",
+      "description": "Research chart 'Average SNN vs DNN performance' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\snn_vs_dnn\\best_snn_vs_dnn.png",
+      "page": "Research Comparison",
+      "section": "SNN vs DNN",
+      "resource_type": "png",
+      "description": "Research chart 'Best SNN vs best DNN' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\snn_vs_dnn\\best_snn_vs_dnn.svg",
+      "page": "Research Comparison",
+      "section": "SNN vs DNN",
+      "resource_type": "svg",
+      "description": "Research chart 'Best SNN vs best DNN' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\snn_vs_dnn\\best_snn_vs_dnn.pdf",
+      "page": "Research Comparison",
+      "section": "SNN vs DNN",
+      "resource_type": "pdf",
+      "description": "Research chart 'Best SNN vs best DNN' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\snn_vs_dnn\\accuracy_gap.png",
+      "page": "Research Comparison",
+      "section": "SNN vs DNN",
+      "resource_type": "png",
+      "description": "Research chart 'Accuracy gap chart' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\snn_vs_dnn\\accuracy_gap.svg",
+      "page": "Research Comparison",
+      "section": "SNN vs DNN",
+      "resource_type": "svg",
+      "description": "Research chart 'Accuracy gap chart' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\snn_vs_dnn\\accuracy_gap.pdf",
+      "page": "Research Comparison",
+      "section": "SNN vs DNN",
+      "resource_type": "pdf",
+      "description": "Research chart 'Accuracy gap chart' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\snn_vs_dnn\\efficiency_gain.png",
+      "page": "Research Comparison",
+      "section": "SNN vs DNN",
+      "resource_type": "png",
+      "description": "Research chart 'Efficiency gain chart' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\snn_vs_dnn\\efficiency_gain.svg",
+      "page": "Research Comparison",
+      "section": "SNN vs DNN",
+      "resource_type": "svg",
+      "description": "Research chart 'Efficiency gain chart' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\snn_vs_dnn\\efficiency_gain.pdf",
+      "page": "Research Comparison",
+      "section": "SNN vs DNN",
+      "resource_type": "pdf",
+      "description": "Research chart 'Efficiency gain chart' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\macro_corr_vs_parameters.png",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Research chart 'Macro correlation vs parameter count' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\macro_corr_vs_parameters.svg",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Research chart 'Macro correlation vs parameter count' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\macro_corr_vs_parameters.pdf",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Research chart 'Macro correlation vs parameter count' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\macro_corr_vs_inference_time_ms.png",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Research chart 'Macro correlation vs inference time' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\macro_corr_vs_inference_time_ms.svg",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Research chart 'Macro correlation vs inference time' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\macro_corr_vs_inference_time_ms.pdf",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Research chart 'Macro correlation vs inference time' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\macro_snr_vs_parameters.png",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Research chart 'Macro SNR vs parameter count' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\macro_snr_vs_parameters.svg",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Research chart 'Macro SNR vs parameter count' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\macro_snr_vs_parameters.pdf",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Research chart 'Macro SNR vs parameter count' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\macro_snr_vs_inference_time_ms.png",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Research chart 'Macro SNR vs inference time' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\macro_snr_vs_inference_time_ms.svg",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Research chart 'Macro SNR vs inference time' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\macro_snr_vs_inference_time_ms.pdf",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Research chart 'Macro SNR vs inference time' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\test_loss_vs_parameters.png",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Research chart 'Test loss vs parameter count' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\test_loss_vs_parameters.svg",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Research chart 'Test loss vs parameter count' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\test_loss_vs_parameters.pdf",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Research chart 'Test loss vs parameter count' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\bubble.png",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Research chart 'Bubble plot' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\bubble.svg",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Research chart 'Bubble plot' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\bubble.pdf",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Research chart 'Bubble plot' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\pareto_frontier.png",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Research chart 'Pareto frontier' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\pareto_frontier.svg",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Research chart 'Pareto frontier' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\trade-offs\\pareto_frontier.pdf",
+      "page": "Research Comparison",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Research chart 'Pareto frontier' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\module_removal_corr.png",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "png",
+      "description": "Research chart 'Performance change when each module is removed' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\module_removal_corr.svg",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "svg",
+      "description": "Research chart 'Performance change when each module is removed' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\module_removal_corr.pdf",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "pdf",
+      "description": "Research chart 'Performance change when each module is removed' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\waterfall_corr.png",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "png",
+      "description": "Research chart 'Cumulative module improvement' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\waterfall_corr.svg",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "svg",
+      "description": "Research chart 'Cumulative module improvement' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\waterfall_corr.pdf",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "pdf",
+      "description": "Research chart 'Cumulative module improvement' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\heatmap_corr.png",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "png",
+      "description": "Research chart 'Module heatmap' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\heatmap_corr.svg",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "svg",
+      "description": "Research chart 'Module heatmap' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\heatmap_corr.pdf",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "pdf",
+      "description": "Research chart 'Module heatmap' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\module_rank_corr.png",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "png",
+      "description": "Research chart 'Macro correlation module ranking' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\module_rank_corr.svg",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "svg",
+      "description": "Research chart 'Macro correlation module ranking' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\module_rank_corr.pdf",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "pdf",
+      "description": "Research chart 'Macro correlation module ranking' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\module_rank_snr.png",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "png",
+      "description": "Research chart 'Macro SNR module ranking' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\module_rank_snr.svg",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "svg",
+      "description": "Research chart 'Macro SNR module ranking' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\module_rank_snr.pdf",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "pdf",
+      "description": "Research chart 'Macro SNR module ranking' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\gain_per_parameter.png",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "png",
+      "description": "Research chart 'Performance gain per parameter' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\gain_per_parameter.svg",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "svg",
+      "description": "Research chart 'Performance gain per parameter' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\ablations\\gain_per_parameter.pdf",
+      "page": "Research Comparison",
+      "section": "Ablations",
+      "resource_type": "pdf",
+      "description": "Research chart 'Performance gain per parameter' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\best_per_category.png",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "png",
+      "description": "Research chart 'Best model per category' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\best_per_category.svg",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "svg",
+      "description": "Research chart 'Best model per category' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\best_per_category.pdf",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "pdf",
+      "description": "Research chart 'Best model per category' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\best_shallow_vs_tasnet.png",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "png",
+      "description": "Research chart 'Best shallow vs TasNet or best DNN' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\best_shallow_vs_tasnet.svg",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "svg",
+      "description": "Research chart 'Best shallow vs TasNet or best DNN' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\best_shallow_vs_tasnet.pdf",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "pdf",
+      "description": "Research chart 'Best shallow vs TasNet or best DNN' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\tradeoff_summary.png",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "png",
+      "description": "Research chart 'Accuracy-efficiency trade-off summary' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\tradeoff_summary.svg",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "svg",
+      "description": "Research chart 'Accuracy-efficiency trade-off summary' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\tradeoff_summary.pdf",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "pdf",
+      "description": "Research chart 'Accuracy-efficiency trade-off summary' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\parameter_reduction_vs_loss.png",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "png",
+      "description": "Research chart 'Parameter reduction vs performance loss' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\parameter_reduction_vs_loss.svg",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "svg",
+      "description": "Research chart 'Parameter reduction vs performance loss' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\parameter_reduction_vs_loss.pdf",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "pdf",
+      "description": "Research chart 'Parameter reduction vs performance loss' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\inference_speedup_vs_loss.png",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "png",
+      "description": "Research chart 'Inference speedup vs performance loss' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\inference_speedup_vs_loss.svg",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "svg",
+      "description": "Research chart 'Inference speedup vs performance loss' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\inference_speedup_vs_loss.pdf",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "pdf",
+      "description": "Research chart 'Inference speedup vs performance loss' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\training_speedup_vs_loss.png",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "png",
+      "description": "Research chart 'Training speedup vs performance loss' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\training_speedup_vs_loss.svg",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "svg",
+      "description": "Research chart 'Training speedup vs performance loss' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\training_speedup_vs_loss.pdf",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "pdf",
+      "description": "Research chart 'Training speedup vs performance loss' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\final_recommendation.png",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "png",
+      "description": "Research chart 'Final recommendation plot' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\final_recommendation.svg",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "svg",
+      "description": "Research chart 'Final recommendation plot' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\figures\\thesis_summary\\final_recommendation.pdf",
+      "page": "Research Comparison",
+      "section": "Thesis Summary",
+      "resource_type": "pdf",
+      "description": "Research chart 'Final recommendation plot' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\tables\\full_results.csv",
+      "page": "Research Comparison",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Research results table 'full_results'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\tables\\snn_only.csv",
+      "page": "Research Comparison",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Research results table 'snn_only'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\tables\\dnn_only.csv",
+      "page": "Research Comparison",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Research results table 'dnn_only'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\tables\\ablation_results.csv",
+      "page": "Research Comparison",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Research results table 'ablation_results'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\tables\\efficiency.csv",
+      "page": "Research Comparison",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Research results table 'efficiency'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\tables\\best_per_metric.csv",
+      "page": "Research Comparison",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Research results table 'best_per_metric'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\research_dashboard\\tables\\pareto_optimal.csv",
+      "page": "Research Comparison",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Research results table 'pareto_optimal'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\summary_statistics.json",
+      "page": "Training Cost and Data Availability",
+      "section": "Summary",
+      "resource_type": "json",
+      "description": "Training-cost and data-availability summary statistics for the current dataset.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\bundle_metadata.json",
+      "page": "Training Cost and Data Availability",
+      "section": "Metadata",
+      "resource_type": "json",
+      "description": "Cost/data bundle metadata describing source labels and preparation warnings.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_s_per_model.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Training time per model' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_s_per_model.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Training time per model' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_s_per_model.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Training time per model' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\parameters_per_model.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Parameter count per model' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\parameters_per_model.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Parameter count per model' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\parameters_per_model.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Parameter count per model' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\inference_time_ms_per_model.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Inference time per model' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\inference_time_ms_per_model.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Inference time per model' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\inference_time_ms_per_model.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Inference time per model' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_by_type.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Training time grouped by SNN vs DNN' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_by_type.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Training time grouped by SNN vs DNN' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_by_type.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Training time grouped by SNN vs DNN' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_box.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Training time distribution by model type' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_box.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Training time distribution by model type' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_box.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Training time distribution by model type' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\macro_corr_vs_training_time_s.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Training time vs macro correlation' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\macro_corr_vs_training_time_s.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Training time vs macro correlation' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\macro_corr_vs_training_time_s.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Training time vs macro correlation' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\macro_snr_vs_training_time_s.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Training time vs macro SNR' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\macro_snr_vs_training_time_s.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Training time vs macro SNR' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\macro_snr_vs_training_time_s.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Training time vs macro SNR' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_s_vs_parameters.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Parameters vs training time' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_s_vs_parameters.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Parameters vs training time' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_s_vs_parameters.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Parameters vs training time' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_s_vs_inference_time_ms.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Inference time vs training time' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_s_vs_inference_time_ms.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Inference time vs training time' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\training_time_s_vs_inference_time_ms.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Inference time vs training time' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\bubble_training_time_corr.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Training time vs macro correlation bubble plot' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\bubble_training_time_corr.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Training time vs macro correlation bubble plot' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\bubble_training_time_corr.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Training time vs macro correlation bubble plot' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\pareto_training_corr.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Compute-efficiency frontier: macro correlation vs training cost' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\pareto_training_corr.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Compute-efficiency frontier: macro correlation vs training cost' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\pareto_training_corr.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Compute-efficiency frontier: macro correlation vs training cost' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\pareto_training_snr.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Compute-efficiency frontier: macro SNR vs training cost' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\pareto_training_snr.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Compute-efficiency frontier: macro SNR vs training cost' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\training_cost\\pareto_training_snr.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Training Cost",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Compute-efficiency frontier: macro SNR vs training cost' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\macro_corr_fraction_all.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Macro correlation vs train fraction' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\macro_corr_fraction_all.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Macro correlation vs train fraction' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\macro_corr_fraction_all.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Macro correlation vs train fraction' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\macro_corr_fraction_type_average.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Average SNN vs DNN macro correlation vs train fraction' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\macro_corr_fraction_type_average.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Average SNN vs DNN macro correlation vs train fraction' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\macro_corr_fraction_type_average.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Average SNN vs DNN macro correlation vs train fraction' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\macro_snr_fraction_all.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Macro SNR vs train fraction' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\macro_snr_fraction_all.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Macro SNR vs train fraction' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\macro_snr_fraction_all.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Macro SNR vs train fraction' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\macro_snr_fraction_type_average.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Average SNN vs DNN macro snr vs train fraction' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\macro_snr_fraction_type_average.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Average SNN vs DNN macro snr vs train fraction' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\macro_snr_fraction_type_average.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Average SNN vs DNN macro snr vs train fraction' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\test_loss_fraction_all.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Test loss vs train fraction' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\test_loss_fraction_all.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Test loss vs train fraction' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\test_loss_fraction_all.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Test loss vs train fraction' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\test_loss_fraction_type_average.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Average SNN vs DNN test loss vs train fraction' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\test_loss_fraction_type_average.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Average SNN vs DNN test loss vs train fraction' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\test_loss_fraction_type_average.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Average SNN vs DNN test loss vs train fraction' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\best_snn_vs_dnn_fraction_corr.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Best SNN vs best DNN macro correlation across train fraction' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\best_snn_vs_dnn_fraction_corr.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Best SNN vs best DNN macro correlation across train fraction' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\best_snn_vs_dnn_fraction_corr.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Best SNN vs best DNN macro correlation across train fraction' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\best_snn_vs_dnn_fraction_snr.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Best SNN vs best DNN macro SNR across train fraction' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\best_snn_vs_dnn_fraction_snr.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Best SNN vs best DNN macro SNR across train fraction' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\best_snn_vs_dnn_fraction_snr.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Best SNN vs best DNN macro SNR across train fraction' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\data_efficiency_gap.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Data-efficiency gap chart' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\data_efficiency_gap.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Data-efficiency gap chart' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\data_efficiency_gap.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Data-efficiency gap chart' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\sample_efficiency.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Sample-efficiency chart' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\sample_efficiency.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Sample-efficiency chart' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\sample_efficiency.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Sample-efficiency chart' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\minimum_data_threshold.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Minimum-data threshold chart' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\minimum_data_threshold.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Minimum-data threshold chart' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\minimum_data_threshold.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Minimum-data threshold chart' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\ranking_by_fraction.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Best model at each train fraction' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\ranking_by_fraction.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Best model at each train fraction' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\ranking_by_fraction.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Best model at each train fraction' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\heatmap_model_fraction.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Model performance across train fraction' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\heatmap_model_fraction.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Model performance across train fraction' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\heatmap_model_fraction.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Model performance across train fraction' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\heatmap_type_fraction.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Model-type performance across train fraction' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\heatmap_type_fraction.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Model-type performance across train fraction' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\heatmap_type_fraction.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Model-type performance across train fraction' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\limited_data_regime.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Data-limited regime chart' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\limited_data_regime.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Data-limited regime chart' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\data_availability\\limited_data_regime.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Data Availability",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Data-limited regime chart' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\accuracy_per_training_second_bar.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Macro correlation per training second' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\accuracy_per_training_second_bar.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Macro correlation per training second' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\accuracy_per_training_second_bar.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Macro correlation per training second' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\snr_per_training_second_bar.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Macro SNR per training second' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\snr_per_training_second_bar.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Macro SNR per training second' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\snr_per_training_second_bar.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Macro SNR per training second' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\accuracy_per_1000_parameters_bar.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Macro correlation per 1,000 parameters' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\accuracy_per_1000_parameters_bar.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Macro correlation per 1,000 parameters' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\accuracy_per_1000_parameters_bar.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Macro correlation per 1,000 parameters' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\snr_per_1000_parameters_bar.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Macro SNR per 1,000 parameters' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\snr_per_1000_parameters_bar.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Macro SNR per 1,000 parameters' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\snr_per_1000_parameters_bar.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Macro SNR per 1,000 parameters' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\accuracy_per_inference_ms_bar.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Macro correlation per millisecond inference time' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\accuracy_per_inference_ms_bar.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Macro correlation per millisecond inference time' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\accuracy_per_inference_ms_bar.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Macro correlation per millisecond inference time' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\snr_per_inference_ms_bar.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Macro SNR per millisecond inference time' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\snr_per_inference_ms_bar.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Macro SNR per millisecond inference time' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\snr_per_inference_ms_bar.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Macro SNR per millisecond inference time' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\performance_loss_vs_training_speedup.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Performance loss vs training speedup' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\performance_loss_vs_training_speedup.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Performance loss vs training speedup' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\performance_loss_vs_training_speedup.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Performance loss vs training speedup' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\performance_loss_vs_parameter_reduction.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Performance loss vs parameter reduction' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\performance_loss_vs_parameter_reduction.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Performance loss vs parameter reduction' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\performance_loss_vs_parameter_reduction.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Performance loss vs parameter reduction' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\performance_loss_vs_inference_speedup.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Performance loss vs inference speedup' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\performance_loss_vs_inference_speedup.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Performance loss vs inference speedup' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\performance_loss_vs_inference_speedup.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Performance loss vs inference speedup' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\cost_normalized_ranking.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Cost-normalized ranking' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\cost_normalized_ranking.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Cost-normalized ranking' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\cost_normalized_ranking.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Cost-normalized ranking' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\pareto_accuracy_training.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Pareto frontier for accuracy vs training time' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\pareto_accuracy_training.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Pareto frontier for accuracy vs training time' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\pareto_accuracy_training.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Pareto frontier for accuracy vs training time' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\pareto_accuracy_parameters.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Pareto frontier for accuracy vs parameters' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\pareto_accuracy_parameters.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Pareto frontier for accuracy vs parameters' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\pareto_accuracy_parameters.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Pareto frontier for accuracy vs parameters' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\pareto_accuracy_inference.png",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Pareto frontier for accuracy vs inference time' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\pareto_accuracy_inference.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Pareto frontier for accuracy vs inference time' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\trade-offs\\pareto_accuracy_inference.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "Trade-offs",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Pareto frontier for accuracy vs inference time' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\best_snn_vs_dnn_bar.png",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Best SNN vs best DNN summary' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\best_snn_vs_dnn_bar.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Best SNN vs best DNN summary' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\best_snn_vs_dnn_bar.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Best SNN vs best DNN summary' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\avg_snn_vs_dnn_bar.png",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Average SNN vs average DNN summary' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\avg_snn_vs_dnn_bar.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Average SNN vs average DNN summary' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\avg_snn_vs_dnn_bar.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Average SNN vs average DNN summary' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\parameter_ratio.png",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "png",
+      "description": "Cost/data chart 'SNN/DNN parameter ratio' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\parameter_ratio.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'SNN/DNN parameter ratio' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\parameter_ratio.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'SNN/DNN parameter ratio' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\inference_ratio.png",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "png",
+      "description": "Cost/data chart 'SNN/DNN inference time ratio' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\inference_ratio.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'SNN/DNN inference time ratio' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\inference_ratio.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'SNN/DNN inference time ratio' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\performance_gap.png",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Performance gap between best SNN and best DNN' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\performance_gap.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Performance gap between best SNN and best DNN' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\performance_gap.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Performance gap between best SNN and best DNN' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\efficiency_gain.png",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Efficiency gain chart' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\efficiency_gain.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Efficiency gain chart' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\efficiency_gain.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Efficiency gain chart' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\combined_accuracy_efficiency.png",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "png",
+      "description": "Cost/data chart 'Accuracy loss versus efficiency gain' exported in PNG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\combined_accuracy_efficiency.svg",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "svg",
+      "description": "Cost/data chart 'Accuracy loss versus efficiency gain' exported in SVG format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\figures\\snn_vs_dnn\\combined_accuracy_efficiency.pdf",
+      "page": "Training Cost and Data Availability",
+      "section": "SNN vs DNN",
+      "resource_type": "pdf",
+      "description": "Cost/data chart 'Accuracy loss versus efficiency gain' exported in PDF format.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\full_results.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'full_results'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\snn_only.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'snn_only'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\dnn_only.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'dnn_only'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\ablation_results.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'ablation_results'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\efficiency.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'efficiency'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\best_per_metric.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'best_per_metric'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\pareto_optimal.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'pareto_optimal'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\training_cost.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'training_cost'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\data_availability.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'data_availability'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\best_model_per_train_fraction.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'best_model_per_train_fraction'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\best_snn_per_train_fraction.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'best_snn_per_train_fraction'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\best_dnn_per_train_fraction.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'best_dnn_per_train_fraction'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\cost_normalized_ranking.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'cost_normalized_ranking'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\pareto_optimal_models.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'pareto_optimal_models'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\cost_data_dashboard\\tables\\missing_data_report.csv",
+      "page": "Training Cost and Data Availability",
+      "section": "Tables",
+      "resource_type": "csv",
+      "description": "Training-cost or data-availability table 'missing_data_report'.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\runs_history\\runs_history.csv",
+      "page": "Runs History",
+      "section": "Runs",
+      "resource_type": "csv",
+      "description": "Full run-history table collected by the dashboard.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\runs_history\\runs_history.json",
+      "page": "Runs History",
+      "section": "Runs",
+      "resource_type": "json",
+      "description": "Full run-history JSON snapshot collected by the dashboard.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\error_analysis\\performance_by_run_conditions.csv",
+      "page": "Error Analysis",
+      "section": "Run Conditions",
+      "resource_type": "csv",
+      "description": "Expanded run-condition table used by the Error Analysis page.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\error_analysis\\best_models_by_macro_corr.csv",
+      "page": "Error Analysis",
+      "section": "Best/Worst Models",
+      "resource_type": "csv",
+      "description": "Top five models by macro correlation from the loaded report table.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\error_analysis\\worst_models_by_macro_corr.csv",
+      "page": "Error Analysis",
+      "section": "Best/Worst Models",
+      "resource_type": "csv",
+      "description": "Bottom five models by macro correlation from the loaded report table.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\error_analysis\\shallow_vs_deep_across_conditions.csv",
+      "page": "Error Analysis",
+      "section": "Shallow vs Deep Across Conditions",
+      "resource_type": "csv",
+      "description": "Mean shallow-vs-deep error-analysis summary across the loaded report table.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\export_manifest.json",
+      "page": "Export Assets",
+      "section": "Manifest",
+      "resource_type": "json",
+      "description": "Machine-readable manifest describing every exported resource and every skipped page section.",
+      "status": "exported"
+    },
+    {
+      "path": "app\\exports\\full_app_export_20260525_161348\\README.md",
+      "page": "Export Assets",
+      "section": "Manifest",
+      "resource_type": "md",
+      "description": "Human-readable overview of the full export bundle and resource descriptions.",
+      "status": "exported"
+    }
+  ],
+  "skipped": [
+    {
+      "page": "Model Comparison",
+      "section": "Signal Set Comparison",
+      "reason": "No session signal-set comparison results are available."
+    },
+    {
+      "page": "Error Analysis",
+      "section": "Per-Sample Saved Analysis",
+      "reason": "No saved sample analysis artifacts are available."
+    },
+    {
+      "page": "Reconstruction Inspector",
+      "section": "Session Snapshot",
+      "reason": "No reconstruction run is stored in session."
+    },
+    {
+      "page": "Signal Generator",
+      "section": "Session Snapshot",
+      "reason": "No generated signal snapshot is stored in session."
+    },
+    {
+      "page": "Test Signal",
+      "section": "Diagnostics",
+      "reason": "No test-signal payload is stored in session."
+    },
+    {
+      "page": "Test Signal",
+      "section": "Statistical Hard-Case Testing",
+      "reason": "No statistical hard-case result is stored in session."
+    }
+  ]
+}

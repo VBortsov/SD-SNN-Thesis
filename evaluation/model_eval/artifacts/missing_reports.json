@@ -1,0 +1,6 @@
+[
+  {
+    "model": "rnnbased",
+    "report": "decomposers/ML_methods/NN_based/saved_models/rnnbased/final_test_report.json"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "sources": [
+    "discovered evaluation reports"
+  ],
+  "warnings": [
+    "Inferred model_type for 83 rows from registry metadata or model naming.",
+    "Inferred enabled_modules for 43 rows from known shallow-model naming patterns."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "sources": [
+    "discovered evaluation reports"
+  ],
+  "warnings": [
+    "Inferred model_type for 82 rows from registry metadata or model naming.",
+    "Inferred enabled_modules for 43 rows from known shallow-model naming patterns.",
+    "Inferred `train_fraction` from `train_samples / max(train_samples)` within each model/config group."
+  ]
+}

@@ -1,0 +1,6 @@
+metric,display_name,model_type,value
+macro_corr,TasNet,DNN,0.9347157604469225
+macro_snr,TasNet,DNN,9.264006872212075
+test_loss,TasNet,DNN,0.029915114690860112
+parameters,SingleHead MLP,SNN,643.0
+inference_time_ms,SingleHead MLP,SNN,0.3207800000000205

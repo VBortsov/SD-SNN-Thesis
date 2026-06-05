@@ -1,0 +1,31 @@
+{
+  "best_snn_macro_corr": 0.8709606746424003,
+  "best_dnn_macro_corr": 0.9347157604469225,
+  "best_snn_macro_snr": 6.693094520676279,
+  "best_dnn_macro_snr": 9.264006872212075,
+  "absolute_performance_gap": 0.06375508580452216,
+  "relative_performance_gap": 0.06820799274213422,
+  "parameter_reduction_factor": 32.064762392724475,
+  "inference_speedup_factor": 2.59016877349984,
+  "training_speedup_factor": 2.0668135803349235,
+  "pareto_optimal_models": [
+    "TasNet",
+    "UNet1D",
+    "UNet1D",
+    "Attention-Stem Multi-Head Multiscale TCN",
+    "Attention-Stem Multi-Head Multiscale TCN",
+    "SepFormer",
+    "SepFormer",
+    "Attention-Stem Bilinear-Fusion Multi-Head Multiscale Branches",
+    "Attention-Stem Bilinear-Fusion Multi-Head Multiscale Branches",
+    "Attention-Stem Bilinear-Fusion Multi-Head Multiscale Branches",
+    "Fuse Shallow",
+    "Fuse Shallow",
+    "Multiscale Branches",
+    "Shallow Conv1D",
+    "conv1Dnetwork",
+    "SingleHead MLP"
+  ],
+  "best_tradeoff_model": "SingleHead MLP",
+  "best_classical_model": null
+}

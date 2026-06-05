@@ -1,0 +1,169 @@
+{
+  "models": [
+    {
+      "key": "unet1d",
+      "model_key": "unet1d",
+      "display_name": "UNet1D",
+      "family": "unet",
+      "depth_label": "deep",
+      "num_layers": null,
+      "notes": "",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/unet1d/unet1d_best.pt",
+      "enabled": true
+    },
+    {
+      "key": "rnnbased",
+      "model_key": "rnnbased",
+      "display_name": "RNN (LSTM/GRU)",
+      "family": "rnn",
+      "depth_label": "deep",
+      "num_layers": null,
+      "notes": "",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/rnnbased/rnnbased_best.pt",
+      "enabled": true
+    },
+    {
+      "key": "autoencoderbased",
+      "model_key": "autoencoderbased",
+      "display_name": "Autoencoder",
+      "family": "autoencoder",
+      "depth_label": "deep",
+      "num_layers": null,
+      "notes": "",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/autoencoderbased/autoencoderbased_best.pt",
+      "enabled": true
+    },
+    {
+      "key": "conv1dnetwork",
+      "model_key": "conv1dnetwork",
+      "display_name": "Shallow Conv1D",
+      "family": "conv1d",
+      "depth_label": "shallow",
+      "num_layers": null,
+      "notes": "",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/conv1Dnetwork/conv1Dnetwork_best.pt",
+      "enabled": true
+    },
+    {
+      "key": "mlp_singlehead",
+      "model_key": "mlp_singlehead",
+      "display_name": "SingleHead MLP",
+      "family": "mlp",
+      "depth_label": "shallow",
+      "num_layers": null,
+      "notes": "",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/mlp_singlehead/mlp_singlehead_best.pt",
+      "enabled": true
+    },
+    {
+      "key": "tasnet",
+      "model_key": "tasnet",
+      "display_name": "TasNet",
+      "family": "tasnet",
+      "depth_label": "deep",
+      "num_layers": null,
+      "notes": "",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/tasnet/tasnet_best.pt",
+      "enabled": true
+    },
+    {
+      "key": "sepformer",
+      "model_key": "sepformer",
+      "display_name": "SepFormer",
+      "family": "sepformer",
+      "depth_label": "deep",
+      "num_layers": null,
+      "notes": "",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/sepformer/sepformer_best.pt",
+      "enabled": true
+    },
+    {
+      "key": "three_parallel_shallow_branches",
+      "model_key": "three_parallel_shallow_branches",
+      "display_name": "Three Parallel Shallow Branches",
+      "family": "conv1d",
+      "depth_label": "shallow",
+      "num_layers": null,
+      "notes": "",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/three_parallel_shallow_branches/three_parallel_shallow_branches_best.pt",
+      "enabled": false
+    },
+    {
+      "key": "fuse_shallow",
+      "model_key": "fuse_shallow",
+      "display_name": "Fuse Shallow",
+      "family": "conv1d",
+      "depth_label": "shallow",
+      "num_layers": null,
+      "notes": "",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/fuse_shallow/fuse_shallow_best.pt",
+      "enabled": true
+    },
+    {
+      "key": "multiscale_dilated",
+      "model_key": "multiscale_dilated",
+      "display_name": "Multiscale Dilated",
+      "family": "conv1d",
+      "depth_label": "shallow",
+      "num_layers": null,
+      "notes": "",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/multiscale_dilated/multiscale_dilated_best.pt",
+      "enabled": true
+    },
+    {
+      "key": "multiscale_branches",
+      "model_key": "multiscale_branches",
+      "display_name": "Multiscale Branches",
+      "family": "conv1d",
+      "depth_label": "shallow",
+      "num_layers": null,
+      "notes": "",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/multiscale_branches/multiscale_branches_best.pt",
+      "enabled": true
+    },
+    {
+      "key": "multiple_head_multiscale_branches",
+      "model_key": "multiple_head_multiscale_branches",
+      "display_name": "Multiple-Head Multiscale Branches",
+      "family": "conv1d",
+      "depth_label": "shallow",
+      "num_layers": null,
+      "notes": "Shared multiscale branches with independent one-channel component heads.",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/multiple_head_multiscale_branches/multiple_head_multiscale_branches_best.pt",
+      "enabled": true
+    },
+    {
+      "key": "attention_stem_multiple_head_multiscale_branches",
+      "model_key": "attention_stem_multiple_head_multiscale_branches",
+      "display_name": "Attention-Stem Multi-Head Multiscale Branches",
+      "family": "conv1d",
+      "depth_label": "shallow",
+      "num_layers": null,
+      "notes": "Local stem plus adaptive branch attention with independent component heads.",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/attention_stem_multiple_head_multiscale_branches/attention_stem_multiple_head_multiscale_branches_best.pt",
+      "enabled": true
+    },
+    {
+      "key": "attention_stem_bilinear_fusion_multiple_head_multiscale_branches",
+      "model_key": "attention_stem_bilinear_fusion_multiple_head_multiscale_branches",
+      "display_name": "Attention-Stem Bilinear-Fusion Multi-Head Multiscale Branches",
+      "family": "conv1d",
+      "depth_label": "shallow",
+      "num_layers": null,
+      "notes": "Attention-stem multi-head architecture with bilinear fusion replacing ordinary 1x1 fusion.",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/attention_stem_bilinear_fusion_multiple_head_multiscale_branches/attention_stem_bilinear_fusion_multiple_head_multiscale_branches_best.pt",
+      "enabled": true
+    },
+    {
+      "key": "attention_stem_multi_head_multiscale_tcn",
+      "model_key": "attention_stem_multi_head_multiscale_tcn",
+      "display_name": "Attention-Stem Multi-Head Multiscale TCN",
+      "family": "conv1d",
+      "depth_label": "shallow",
+      "num_layers": null,
+      "notes": "",
+      "default_checkpoint": "decomposers/ML_methods/NN_based/saved_models/attention_stem_multi_head_multiscale_tcn/attention_stem_multi_head_multiscale_tcn_best.pt",
+      "enabled": true
+    }
+  ]
+}
